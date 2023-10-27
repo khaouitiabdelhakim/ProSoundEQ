@@ -24,7 +24,6 @@ import android.widget.LinearLayout
 import android.widget.SeekBar
 import android.widget.TableRow
 import android.widget.TextView
-import androidx.appcompat.widget.SwitchCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import com.abdelhakim.prosoundeq.databinding.ActivityProSoundEqBinding
