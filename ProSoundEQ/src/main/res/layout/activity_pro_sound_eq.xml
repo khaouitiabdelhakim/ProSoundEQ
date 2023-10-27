@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151515"
+    tools:context=".ProSoundEQ">
+
+    <LinearLayout
+        android:paddingTop="140dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="80dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:textColor="@color/white"
+                android:fontFamily="@font/music_freedom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:maxLines="1"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="Preset:" />
+
+            <Spinner
+                android:id="@+id/preset_spinner"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="2"
+                android:background="@drawable/spinner_bg"
+                android:dropDownWidth="wrap_content"
+                android:dropDownSelector="#000"
+                android:gravity="center|center_horizontal"
+                android:padding="5dp"
+                android:popupBackground="@drawable/selected"
+                android:scrollbars="none"
+                android:spinnerMode="dropdown"
+                android:theme="@style/Custom_Spinner_Item_Style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/seekbar_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="4"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/seekbar_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:paddingStart="10dp" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="80dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:textColor="@color/white"
+                android:fontFamily="@font/music_freedom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:maxLines="1"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="Reverb:"
+                />
+
+            <Spinner
+                android:id="@+id/reverb_spinner"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="2"
+                android:background="@drawable/spinner_bg"
+                android:dropDownWidth="wrap_content"
+                android:dropDownSelector="#000"
+                android:gravity="center|center_horizontal"
+                android:padding="5dp"
+                android:popupBackground="@drawable/selected"
+                android:scrollbars="none"
+                android:spinnerMode="dropdown"
+                android:theme="@style/Custom_Spinner_Item_Style" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:fontFamily="@font/music_freedom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:maxLines="1"
+                android:paddingStart="20dp"
+                android:paddingEnd="10dp"
+                android:text="Bass: " />
+
+
+
+            <SeekBar
+                android:id="@+id/bass_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:maxHeight="1dp"
+                android:paddingStart="50dp"
+                android:max="100"
+                android:paddingEnd="50dp" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:fontFamily="@font/music_freedom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:maxLines="1"
+                android:paddingStart="20dp"
+                android:paddingEnd="10dp"
+                android:text="3D Virtualizer: " />
+
+            <SeekBar
+                android:id="@+id/virtualizer_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:maxHeight="1dp"
+                android:paddingStart="50dp"
+                android:max="100"
+                android:paddingEnd="50dp" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/logo"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:textColor="@color/white"
+                android:fontFamily="@font/music_freedom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="Powered by" />
+
+            <ImageView
+                android:src="@drawable/logo"
+                app:tint="@color/white"
+                android:layout_width="80dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A1000000"
+        android:id="@+id/blinder"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_weight="0"
+            android:id="@+id/backButtonEA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@android:color/transparent"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:paddingVertical="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/back_arrow_icon"
+            app:tint="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:fontFamily="@font/music_freedom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="ProSoundEQ" />
+
+        <Switch
+            android:id="@+id/switch_eq"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="15dp"
+            android:checked="false"
+            android:thumb="@drawable/switch_thumb"
+            android:track="@drawable/switch_track"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

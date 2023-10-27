@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="black_transparent">#88000000</color>
+
+    <color name="colorPrimary">#FF03DAC5</color>
+
+    <color name="firstGreatColor">#05FFFC</color>
+
+    <color name="myOrange">#F44336</color>
+    <color name="myPink">#FF4182</color>
+    <color name="myBlue">#2196F3</color>
+    <color name="myRed">#FF0000</color>
+    <color name="myViolet">#0022DF</color>
+
+    <color name="mainColor1">#00BCD4</color>
+
+    //custom colors
+    <color name="cool_orange">#FFC107</color>
+    <color name="cool_pink">#FF4182</color>
+    <color name="cool_gray">#D8D8D8</color>
+    <color name="mainColor">#00BCD4</color>
+    <color name="PriceColor">#0E0027</color>
+
+    <color name="appPrimaryColor">#00093A</color>
+    <color name="appSecondaryColor">#27316C</color>
+
+    <color name="appGray01">#ECECEC</color>
+
+    <color name="blacko">#121212</color>
+    <color name="blackon">#B5B5B5</color>
+
+    <color name="colorOverlay">#7A000000</color>
+    <color name="colorOverlay2">#92000000</color>
+
+    // for lyrics
+    <color name="lyrics01">#F44336</color>
+    <color name="bright_blue">#00FFFF</color>
+    <color name="lyrics03">#9C27B0</color>
+    <color name="lyrics04">#E91E63</color>
+    <color name="lyrics05">#673AB7</color>
+    <color name="lyrics06">#3F51B5</color>
+    <color name="lyrics07">#03A9F4</color>
+    <color name="lyrics08">#00BCD4</color>
+    <color name="lyrics09">#009688</color>
+    <color name="lyrics10">#4CAF50</color>
+    <color name="lyrics11">#8BC34A</color>
+    <color name="lyrics12">#CDDC39</color>
+    <color name="lyrics13">#FFEB3B</color>
+    <color name="lyrics14">#FFC107</color>
+    <color name="lyrics15">#FF9800</color>
+    <color name="lyrics16">#FF5722</color>
+
+
+    <!--    custom colors-->
+    <color name="cool_blue">#0091EA</color>
+    <color name="cool_green">#64DD17</color>
+
+    <color name="yellow">#FFD600</color>
+    <color name="transparent_black">#37000000</color>
+    <color name="progress_gray">#6D999999</color>
+
+
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+
+</resources>
