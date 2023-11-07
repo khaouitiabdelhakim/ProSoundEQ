@@ -179,7 +179,8 @@ class ProSoundEQ : AppCompatActivity() {
 
             for (index in 0 until equalizer!!.numberOfBands) {
 
-                val verticalSeekbar = VerticalSeekbar(this@ProSoundEQ)
+                val verticalSeekbar =
+                    ProSoundEQVerticalSeekbar(this@ProSoundEQ)
                 seekbarIds.add(index, View.generateViewId())
                 verticalSeekbar.max = max - min
                 verticalSeekbar.tag = index
@@ -266,7 +267,7 @@ class ProSoundEQ : AppCompatActivity() {
                                 for (i in seekbarIds.indices) {
                                     Runnable {
                                         val seekbar =
-                                            findViewById<VerticalSeekbar>(seekbarIds[i])
+                                            findViewById<ProSoundEQVerticalSeekbar>(seekbarIds[i])
                                         seekbar.shouldChange = false
                                         seekbar.progress = 1
                                         seekbar.progress = equalizer!!.getBandLevel(i.toShort()) - min

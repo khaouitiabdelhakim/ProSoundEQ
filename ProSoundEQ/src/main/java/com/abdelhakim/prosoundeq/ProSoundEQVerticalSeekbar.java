@@ -9,19 +9,19 @@ import android.widget.SeekBar;
 
 
 @SuppressLint("AppCompatCustomView")
-public class VerticalSeekbar extends SeekBar {
+public class ProSoundEQVerticalSeekbar extends SeekBar {
 
     private boolean shouldChange = false;
 
-    public VerticalSeekbar(Context context) {
+    public ProSoundEQVerticalSeekbar(Context context) {
         super(context);
     }
 
-    public VerticalSeekbar(Context context, AttributeSet attrs) {
+    public ProSoundEQVerticalSeekbar(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public VerticalSeekbar(Context context, AttributeSet attrs, int defStyleAttr) {super(context, attrs, defStyleAttr);}
+    public ProSoundEQVerticalSeekbar(Context context, AttributeSet attrs, int defStyleAttr) {super(context, attrs, defStyleAttr);}
 
     @Override
     protected void onSizeChanged(int width, int height, int oldWidth, int oldHeight) {
