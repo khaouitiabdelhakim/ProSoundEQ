@@ -19,7 +19,7 @@
 
     <item
         android:gravity="end|center_vertical"
-        android:drawable="@drawable/drop_down"/>
+        android:drawable="@drawable/pro_sound_eq_drop_down"/>
 
 
 </layer-list>

@@ -4,7 +4,6 @@ import android.annotation.SuppressLint
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.graphics.Color
-import android.graphics.PorterDuff
 import android.media.audiofx.BassBoost
 import android.media.audiofx.Equalizer
 import android.media.audiofx.PresetReverb
@@ -52,7 +51,7 @@ class ProSoundEQ : AppCompatActivity() {
         setTheme(R.style.mainTheme)
 
 
-        val typeface = ResourcesCompat.getFont(this,R.font.music_freedom)
+        val typeface = ResourcesCompat.getFont(this,R.font.pro_sound_eq_freedom)
         val settings = getSharedPreferences("ProSoundEQ", 0)
 
 

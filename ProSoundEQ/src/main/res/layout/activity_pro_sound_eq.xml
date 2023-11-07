@@ -26,7 +26,7 @@
 
             <TextView
                 android:textColor="@color/white"
-                android:fontFamily="@font/music_freedom"
+                android:fontFamily="@font/pro_sound_eq_freedom"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -41,12 +41,12 @@
                 android:layout_width="0dp"
                 android:layout_height="48dp"
                 android:layout_weight="2"
-                android:background="@drawable/spinner_bg"
+                android:background="@drawable/pro_sound_eq_spinner_bg"
                 android:dropDownWidth="wrap_content"
                 android:dropDownSelector="#000"
                 android:gravity="center|center_horizontal"
                 android:padding="5dp"
-                android:popupBackground="@drawable/selected"
+                android:popupBackground="@drawable/pro_sound_eq_selected"
                 android:scrollbars="none"
                 android:spinnerMode="dropdown"
                 android:theme="@style/Custom_Spinner_Item_Style" />
@@ -82,7 +82,7 @@
 
             <TextView
                 android:textColor="@color/white"
-                android:fontFamily="@font/music_freedom"
+                android:fontFamily="@font/pro_sound_eq_freedom"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -98,12 +98,12 @@
                 android:layout_width="0dp"
                 android:layout_height="48dp"
                 android:layout_weight="2"
-                android:background="@drawable/spinner_bg"
+                android:background="@drawable/pro_sound_eq_spinner_bg"
                 android:dropDownWidth="wrap_content"
                 android:dropDownSelector="#000"
                 android:gravity="center|center_horizontal"
                 android:padding="5dp"
-                android:popupBackground="@drawable/selected"
+                android:popupBackground="@drawable/pro_sound_eq_selected"
                 android:scrollbars="none"
                 android:spinnerMode="dropdown"
                 android:theme="@style/Custom_Spinner_Item_Style" />
@@ -120,7 +120,7 @@
 
             <TextView
                 android:textColor="@color/white"
-                android:fontFamily="@font/music_freedom"
+                android:fontFamily="@font/pro_sound_eq_freedom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal|center_vertical"
@@ -145,7 +145,7 @@
 
             <TextView
                 android:textColor="@color/white"
-                android:fontFamily="@font/music_freedom"
+                android:fontFamily="@font/pro_sound_eq_freedom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal|center_vertical"
@@ -181,7 +181,7 @@
 
             <TextView
                 android:textColor="@color/white"
-                android:fontFamily="@font/music_freedom"
+                android:fontFamily="@font/pro_sound_eq_freedom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal|center_vertical"
@@ -190,7 +190,7 @@
                 android:text="Powered by" />
 
             <ImageView
-                android:src="@drawable/logo"
+                android:src="@drawable/pro_sound_eq_logo"
                 app:tint="@color/white"
                 android:layout_width="80dp"
                 android:layout_height="40dp"/>
@@ -227,14 +227,14 @@
             android:paddingEnd="10dp"
             android:paddingVertical="10dp"
             android:layout_marginTop="10dp"
-            android:src="@drawable/back_arrow_icon"
+            android:src="@drawable/pro_sound_eq_back_arrow_icon"
             app:tint="@color/white"
             tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:fontFamily="@font/music_freedom"
+            android:fontFamily="@font/pro_sound_eq_freedom"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -252,8 +252,8 @@
             android:layout_gravity="center_vertical|end"
             android:layout_marginEnd="15dp"
             android:checked="false"
-            android:thumb="@drawable/switch_thumb"
-            android:track="@drawable/switch_track"
+            android:thumb="@drawable/pro_sound_eq_switch_thumb"
+            android:track="@drawable/pro_sound_eq_switch_track"
             tools:ignore="UseSwitchCompatOrMaterialXml" />
 
 
