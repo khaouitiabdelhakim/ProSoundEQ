@@ -1,6 +1,6 @@
 # ProSoundEQ - An Audio Equalization Library for Android
 
-![ProSoundEQ](https://github.com/khaouitiabdelhakim/ProSoundEQ/blob/master/ProSoundEQ.png)
+![ProSoundEQ](https://github.com/khaouitiabdelhakim/ProSoundEQ/blob/master/picture.png)
 
 ProSoundEQ is a powerful Android library developed by Abdelhakim Khaouiti, designed to enhance your audio experience by providing audio equalization, bass boost, virtualizer, and reverb settings. This library is ideal for developers working on music-related Android applications, providing a seamless way to customize audio playback settings.
 
