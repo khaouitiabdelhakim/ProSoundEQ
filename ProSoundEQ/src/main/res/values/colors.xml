@@ -4,5 +4,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="blacko">#323232</color>
+
 
 </resources>
