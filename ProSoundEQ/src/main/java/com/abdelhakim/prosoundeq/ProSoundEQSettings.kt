@@ -11,11 +11,14 @@
 
 package com.abdelhakim.prosoundeq
 
+import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import android.media.audiofx.BassBoost
 import android.media.audiofx.Equalizer
 import android.media.audiofx.PresetReverb
 import android.media.audiofx.Virtualizer
+import androidx.core.content.ContextCompat.startActivity
 
 object ProSoundEQSettings {
 
