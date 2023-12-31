@@ -11,7 +11,7 @@ ProSoundEQ is a powerful Android library developed by Abdelhakim Khaouiti, desig
 
 ## Last Modified
 
-- **Last Modified:** 2023-10-26
+- **Last Modified:** 2023-12-31
 
 ## How to Use
 
