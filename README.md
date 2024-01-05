@@ -67,6 +67,22 @@ Feel free to explore and customize ProSoundEQ to suit your application's audio r
 
 We express our appreciation to the open-source community for their valuable contributions.
 
----
+## License
+
+```
+Copyright 2024 KHAOUITI ABDELHAKIM
+
+Licensed under the MIT License
+You may obtain a copy of the License at
+
+   http://opensource.org/licenses/MIT
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the MIT License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the MIT License.
+```
+
 
 ProSoundEQ provides a comprehensive solution for integrating advanced audio settings into your Android applications. Use it responsibly in your projects while respecting its authorship.
