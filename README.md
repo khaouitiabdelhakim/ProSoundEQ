@@ -75,7 +75,7 @@ Copyright 2024 KHAOUITI ABDELHAKIM
 Licensed under the MIT License
 You may obtain a copy of the License at
 
-   http://opensource.org/licenses/MIT
+http://opensource.org/licenses/MIT
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the MIT License is distributed on an "AS IS" BASIS,
